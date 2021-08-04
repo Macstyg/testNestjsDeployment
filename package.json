@@ -1,0 +1,20 @@
+{
+  "name": "monorep-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "test": "lerna run test",
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
